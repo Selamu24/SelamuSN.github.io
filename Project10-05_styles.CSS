@@ -1,0 +1,37 @@
+--->
+     <meta charset="utf-8"/>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>Hands-on project 10-5</title>
+     <link rel="styleSheet" href="styles.css" />
+
+</head>
+
+<body>
+   <header>
+        <h1>Hands-on project10-05</h1>
+	</header>
+	
+<section>
+	<p>Type the letters for the puzzle clues. The Across and Down clues 
+	  are highlighted for you. Use your pointer or keyboard to navigate
+	  the puzzle. press the spacebar to switch between the horizontal
+	  and vertical typing direction or click the direction icon at
+	  the bottom-lift corner of the puzzle. If you're stuck, click the show
+	  Errors button. If you're really really stuck, click the show
+	  Solution button.
+  </p>
+  <artcle>
+     <table id="crossword">
+	   <caption>Today's Crossword</caption>
+	   <!--
+	      In the puzzle grid, each cell is given an id. The correct letter for that cells is stored
+		  in the data-letter attribute.
+		  
+		  The id of the letter to right right is stored in the data-right
+		  attribute. The id of the letter to the left is stored in the data-left attribute.
+		  The id of the below is stored in the data-down attribute. The id of the letter above
+		  is stored in the data-up attribute.
+		  The id of the clue of which the letter is part in the across direction is stored in the data-clue-a attribute.
+		  The id of the clue of which the letter is part in the down direction is stored in the data-clue-d attribute.
+		  
+	  
